@@ -29,7 +29,7 @@ int batchSize = 30;
 double learningRate = 0.04;
 int epochs = 50;
 std::vector<int> layers = {784, 100, 10};
----
+```
 
 # Usage
 
@@ -37,7 +37,7 @@ Once you’ve built the project, you can train and evaluate the neural network u
 
 ```bash
 ./neural_net train-images.idx3-ubyte train-labels.idx1-ubyte t10k-images.idx3-ubyte t10k-labels.idx1-ubyte (See main.cpp for more details)
-
+```
 
 
 
