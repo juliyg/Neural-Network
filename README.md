@@ -29,6 +29,7 @@ int batchSize = 30;
 double learningRate = 0.04;
 int epochs = 50;
 std::vector<int> layers = {784, 100, 10};
+---
 
 # Usage
 
